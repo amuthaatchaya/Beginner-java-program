@@ -1,0 +1,109 @@
+BASIC JAVA PROGRAM:
+
+1.WHICH IS GREATER
+public class Main{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        int c=30;
+        System.out.println((a>b&&a>c)?"a is greater":(b>a&&b>c)?" b is greater":(c>a&&c>b)?"c is greater":"all are equal");
+    }
+} O/P:C is greater
+
+2.swaping 
+METHOD1: public class Main{
+      public static void main(String[] args){
+        int a=10;
+        int b=20;
+        int c=a;
+        a=b;
+        b=c;
+        System.out.println(a+" "+b);
+    }
+} o/p: 20,10
+
+METHOD 2: public class Main{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        a=a+b;//30
+        b=a-b;//10
+        a=a-b;//20
+        System.out.println(a+" "+b);
+    }
+}o/p: 20,10
+
+METHOD 3: public class Main{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        a=a*b;//200
+        b=a/b;//10
+        a=a/b;//20
+        System.out.println(a+" "+b);
+    }
+}o/p: 20,10
+
+
+METHOD 4: public class Main{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        a=a^b;//15
+        b=a^b;//10
+        a=a^b;//5
+        System.out.println(a+" "+b);
+    }
+}o/p: 20,10
+
+3.Addition of two input
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a value");
+        int a=scan.nextInt();
+        System.out.println("Enter b value");
+        int b=scan.nextInt();
+        System.out.println("A value is "+ a +" b value is "+b);
+    }
+} 
+MATH INBULID METHODS
+
+4.import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println(Math.abs(-90));
+    }
+}
+
+5.import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println(Math.max(7,10));
+    }
+}
+6.import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println(Math.min(7,10));
+    }
+}
+7.import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println(Math.pow(7,10));
+    }
+}
+8.import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println(Math.sqrt(7));
+    }
+}
+
